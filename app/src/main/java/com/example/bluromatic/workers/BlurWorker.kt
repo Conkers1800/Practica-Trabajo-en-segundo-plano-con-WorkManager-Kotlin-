@@ -21,7 +21,7 @@ class BlurWorker(ctx: Context, params: WorkerParameters) : CoroutineWorker(ctx, 
         return withContext(Dispatchers.IO){
             delay(DELAY_TIME_MILLIS)
 
-            val picture = BitmapFactory.decodeResource()
+           // val picture = BitmapFactory.decodeResource()
         return@withContext try{
             val picture = BitmapFactory.decodeResource(
                 applicationContext.resources,
